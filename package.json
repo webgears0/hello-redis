@@ -1,0 +1,14 @@
+{
+  "name": "hello-redis",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:webgears0/hello-redis.git",
+  "author": "MG",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "koa": "^2.13.4"
+  }
+}
