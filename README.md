@@ -24,3 +24,6 @@ When attached we can run
 `# redis-cli`
 
 ## Project set up
+
+Build project: `yarn build`
+Run `yarn start`

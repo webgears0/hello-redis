@@ -5,10 +5,19 @@
   "repository": "git@github.com:webgears0/hello-redis.git",
   "author": "MG",
   "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rm -rf ./dist/*",
+    "compile": "tsc",
+    "start": "node ./dist/main.js"
+  },
   "devDependencies": {
+    "@types/koa": "^2.13.5",
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "koa": "^2.13.4"
+    "koa": "^2.13.4",
+    "redis": "^4.2.0"
   }
 }
